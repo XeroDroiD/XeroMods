@@ -2,6 +2,8 @@
 
 Ce guide détaille les étapes nécessaires pour installer les mods sur votre serveur Minecraft privé en utilisant TLauncher. Les instructions sont fournies pour les systèmes d'exploitation Mac et Windows.
 
+[Voici le lien du mod pack.](https://github.com/XeroDroiD/XeroMods/archive/refs/heads/main.zip)
+
 ## Prérequis
 
 - TLauncher doit être installé sur votre ordinateur.
