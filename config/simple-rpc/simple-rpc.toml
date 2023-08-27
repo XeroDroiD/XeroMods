@@ -1,0 +1,184 @@
+[general]
+	#The Application ID of the Discord App to use. Replace this with your client id from the discord dashboard to change the name of the app
+	applicationID = 1142231545743151264
+	#Enable/Disable the mod
+	enabled = true
+	#Enable/Disable debugging mode. WARNING: MAY CAUSE LOG SPAM!
+	debugging = false
+	#Enable/Disable the in game config screen. ONLY AVAILABLE WHEN CLOTH CONFIG IS INSTALLED!
+	configScreen = false
+	#Display the Icon and Pack Name in place of LargeImage from compatible launchers. DOES NOT WORK WITH CUSTOM APPS! ONLY THE DEFAULT ONE!
+	launcherIntegration = false
+	#Internal Version Number. NO TOUCHY!
+	version = 18
+
+[init]
+	#Enable/Disable the Game Loading Event
+	enabled = false
+	#The first line of text under the app name
+	description = "XeroMods"
+	#The second line of text under the app name
+	state = "Le jeu ce lance..."
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = ["mclogonew"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "XeroMods"
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = ["mclogo"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%player%"
+	#The buttons to display on Discord 
+	buttons = []
+
+[main_menu]
+	#Enable/Disable the Main Menu Event
+	enabled = true
+	#The first line of text under the app name
+	description = "Actuellement sur le menu"
+	#The second line of text under the app name
+	state = "En train de jouer"
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = ["icon"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "Serveur sous WhiteList"
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = ["https://mc-heads.net/avatar/%player%/512.png"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%player%"
+	#The buttons to display on Discord 
+	buttons = []
+
+[server_list]
+	#Enable/Disable the Server List Event
+	enabled = false
+	#The first line of text under the app name
+	description = "%player% is looking for a server"
+	#The second line of text under the app name
+	state = "Searching for friends"
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = ["mclogonew"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "It's Minecraft %mcver%, but modded"
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = ["mclogo"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%mods% mods installed"
+	#The buttons to display on Discord 
+	buttons = []
+
+[realms_list]
+	#Enable/Disable the Realms Screen Event
+	enabled = false
+	#The first line of text under the app name
+	description = "%player% is looking for a Realm"
+	#The second line of text under the app name
+	state = "Browsing Realms"
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = ["mclogonew"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "It's Minecraft %mcver%, but modded"
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = ["mclogo"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%mods% mods installed"
+	#The buttons to display on Discord 
+	buttons = []
+
+[join_game]
+	#Enable/Disable the Join Game Event
+	enabled = true
+	#The first line of text under the app name
+	description = "%player% rejoint le serveur"
+	#The second line of text under the app name
+	state = "en train de jouer"
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = ["icon"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "Serveur sous WhiteList"
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = ["https://mc-heads.net/avatar/%player%/512.png"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%player%"
+	#The buttons to display on Discord 
+	buttons = []
+
+[single_player]
+	#Enable/Disable the Single Player Event
+	enabled = false
+	#The first line of text under the app name
+	description = "Currently In %world%"
+	#The second line of text under the app name
+	state = "Playing lonely mode"
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = ["mclogonew"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "It's Minecraft %mcver%, but modded"
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = ["mclogo"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%mods% mods installed"
+	#The buttons to display on Discord 
+	buttons = []
+
+[multi_player]
+	#Enable/Disable the Multi Player Event
+	enabled = true
+	#The first line of text under the app name
+	description = "Sur le serveur"
+	#The second line of text under the app name
+	state = "en train de jouer"
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = ["icon"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "Serveur sous WhiteList"
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = ["https://mc-heads.net/avatar/%player%/512.png"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%player%"
+	#The buttons to display on Discord 
+	buttons = []
+
+[realms]
+	#Enable/Disable the Realms Game Event
+	enabled = false
+	#The first line of text under the app name
+	description = "Playing on %realmname%"
+	#The second line of text under the app name
+	state = "Playing on a Realm"
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = ["mclogonew"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "It's Minecraft %mcver%, but modded"
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = []
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%realmdescription%"
+	#The buttons to display on Discord 
+	buttons = []
+
+[generic]
+	#The first line of text under the app name
+	description = "Ne fait rien..."
+	#The second line of text under the app name
+	state = "En train de jouer"
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = ["icon"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "Serveur sous WhiteList"
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = ["https://mc-heads.net/avatar/%player%/512.png"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%player%"
+	#The buttons to display on Discord 
+	buttons = []
+
+[custom]
+	#Must these variables be parsed along with other variables
+	enabled = false
+	#Your custom variables to add
+	variables = []
+
+[dimension_overrides]
+	enabled = false
+	dimensions = []
+
