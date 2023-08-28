@@ -27,7 +27,7 @@ buttonAlignment = "RIGHT"
 		#The custom crosshair to use for weapons. Go to (Options > Controls > Mouse Settings > Crosshair) in game to change this!
 		crosshair = "minecraft:default"
 		#If enabled, renders a cooldown indicator to make it easier to learn when you fire again.
-		cooldownIndicator = true
+		cooldownIndicator = false
 		#If enabled, the weapon will sway when the player moves their look direction. This does not affect aiming and is only visual.
 		weaponSway = true
 		#The sensistivity of the visual weapon sway when the player moves their look direciton. The higher the value the more sway.
